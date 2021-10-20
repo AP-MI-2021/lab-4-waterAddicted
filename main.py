@@ -25,7 +25,6 @@ def liste_cu_numpar_par_de_elemente(lst1,lst2):
     for i in range(0,len(lst2)):
         if lst2[i] % 2 == 0:
             numar_pare2 +=1
-    print(numar_pare2,numar_pare1)
     if numar_pare1 == numar_pare2:
         return  True
     return False
